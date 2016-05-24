@@ -1,0 +1,38 @@
+{
+  "name": "react-folio-v2",
+  "version": "2.0.0",
+  "description": "react folio v2",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tr13ze/react-folio-v2.git"
+  },
+  "author": "hello@tr13ze.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tr13ze/react-folio-v2/issues"
+  },
+  "homepage": "https://github.com/tr13ze/react-folio-v2#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "node-sass": "^3.7.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-hot-loader": "^1.3.0",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "build": "./node_modules/webpack/bin/webpack.js -p",
+    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --progress --colors --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
