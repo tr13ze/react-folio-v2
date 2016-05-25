@@ -3,7 +3,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 function getDevTool() {
     if (process.env.NODE_ENV !== 'production') {
-        return 'source-map'; //enables source map
+        //return 'source-map';
     }
 
     return false;
@@ -11,7 +11,7 @@ function getDevTool() {
 
 module.exports = {
     entry: {
-        main: './src/js/main.js'
+        main: './src/js/app.js'
     },
     output: {
         filename: './www/js/app.min.js'
